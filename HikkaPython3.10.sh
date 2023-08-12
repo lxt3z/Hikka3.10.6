@@ -20,7 +20,7 @@ fi
 
 eval 'export CFLAGS="-I/data/data/com.termux/files/usr/include/" && pip install Pillow -U --no-cache-dir'
 
-printf "\r\033[K\033[0;32mPillow installed!\e[0m\n"
+printf "\r\033[K\033[0;32m✅Подушка установлена!\e[0m\n"
 echo -e "\033[0;96m✴️Загрузка исходного кода...\033[0m"
 
 eval "rm -rf ~/Hikka 2>/dev/null"
