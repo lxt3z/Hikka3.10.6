@@ -5,7 +5,7 @@ echo -e "\033[2J\033[3;1f"
 eval "cat ~/Hikka/assets/download.txt"
 printf "\n\n\033[1;35mХикка устанавливается... 🌚\033[0m"
 
-echo -e "\n\n\033[0;96m✅Установка базовых пакетов...\033[0m"
+echo -e "\n\n\033[0;96m✴️Установка базовых пакетов...\033[0m"
 
 eval "pkg i git python libjpeg-turbo openssl -y"
 
@@ -47,4 +47,4 @@ echo -e "\033[2J\033[3;1f"
 
 printf "\033[1;32mHikka начинается...\033[0m\n"
 
-eval "python3.10 -m hikka"
+eval "python3 -m hikka"
